@@ -1,0 +1,23 @@
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+.name{
+    margin-right: 30px;
+}

@@ -1,17 +1,20 @@
+import "./styles/Header.css"
 function Header(){
 
     return(
         <header>
-            <h1>William James</h1>
-            <nav>
-                <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="#"></a>Service</li>
-                    <li><a href="#"></a>Contact</li>
-                </ul>
-            </nav>
-            <hr></hr>
+             <div className="header-content">
+        <h1 className="name">William James</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
         </header>
     );
 
